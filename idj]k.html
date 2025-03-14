@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booleans</title>
+</head>
+<body>
+<p>Rock Paper Scissors</p>
+<button onclick = "
+    const randNum = Math.random();
+
+if (randNum >= 0 && randNum < 1 /3) {
+   const compMove = 'rock';
+} else if (randNum >= 1/3 && randNum < 2/3) {
+    const compMove = 'paper'
+} else if (randNum >= 2/3 && randNum < 1) {
+    const compMove = 'scissors';
+}
+const randNum2 = Math.random();
+if (randNum2 >= 1/3 && randNum2 < 2/3) {
+    const compMove = 'paper';
+}
+console.log(compMove);
+"
+>Rock</button>
+<button>Paper</button>
+<button>Scissors</button>    
+    <script>
+let var1 = 'paper'
+    </script>
+</body>
+</html>
